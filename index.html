@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">
+    <title>Conway`s Game of Life</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Conways Game of Life
+        </h1>
+    </header>
+    <main>
+        <h2>Rules:</h2>
+        <ol>
+            <li>Any live cell with two or three live neighbours survives.</li>
+            <li>Any dead cell with three live neighbours becomes a live cell.</li>
+            <li>All other live cells die in the next generation. Similarly, all other dead cells stay dead.</li>
+        </ol>
+        <a target="_blank" href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">
+            Link to the page about the game in wikipedia
+        </a>
+        <div>
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+            <button id="reset">Reset initial state and start again</button>
+        </div>
+        <canvas></canvas>
+    </main>
+    <footer>
+        <p>
+            Author: Melnikov Aleksei 
+            <address>
+                <a target="_blank" href="https://github.com/MelnikovAleksei">
+                    Github
+                </a>
+            </address>
+        </p>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
