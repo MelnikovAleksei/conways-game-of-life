@@ -81,6 +81,7 @@ const update = () => {
 let intervalId;
 
 const start = () => {
+    stop();
     intervalId = setInterval(update, DELAY);
 };
 
